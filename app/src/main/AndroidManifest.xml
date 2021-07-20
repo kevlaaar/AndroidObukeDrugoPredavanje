@@ -14,7 +14,11 @@
         </activity>
         <activity android:name=".ActivityScreenB"/>
         <activity android:name=".ActivityScreenBTwo"/>
+        <activity android:name=".ActivityThree">
+        </activity>
         <activity android:name=".ActivityScreenATwo">
+        </activity>
+        <activity android:name=".ActivityFour">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

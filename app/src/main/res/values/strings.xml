@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">DrugoPredavanje</string>
+
+    <string name="first_square">First square clicked.</string>
 </resources>
