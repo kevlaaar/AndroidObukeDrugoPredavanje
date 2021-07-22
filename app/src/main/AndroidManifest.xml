@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.drugopredavanje">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,20 +13,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DrugoPredavanje">
         <activity android:name=".ActivityScreenA">
-
         </activity>
         <activity android:name=".ActivityScreenB"/>
+        <activity android:name=".ActivityFive">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".ActivityScreenBTwo"/>
         <activity android:name=".ActivityThree">
         </activity>
         <activity android:name=".ActivityScreenATwo">
         </activity>
         <activity android:name=".ActivityFour">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 

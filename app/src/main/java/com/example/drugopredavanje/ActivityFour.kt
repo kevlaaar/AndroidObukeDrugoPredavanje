@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.drugopredavanje.adapters.ContactsAdapter
+import com.example.drugopredavanje.models.ContactModel
 
 class ActivityFour: AppCompatActivity() {
 

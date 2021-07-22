@@ -1,4 +1,4 @@
-package com.example.drugopredavanje
+package com.example.drugopredavanje.models
 
 class ContactModel(
     val name: String,
